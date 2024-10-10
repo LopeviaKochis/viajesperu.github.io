@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente Virtual de Turismo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Reservas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider de imágenes -->
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slide"><img src="img/peru1.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="img/peru2.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="img/peru3.jpg" alt="Imagen 3"></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </section>
+
+    <!-- Sección de departamentos más visitados -->
+    <section class="destinos">
+        <h2>Departamentos más visitados</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Cusco</h3>
+                <p>Descubre la historia de los incas</p>
+                <a href="departamento.html?departamento=Cusco">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Lima</h3>
+                <p>Vibrante capital con historia colonial</p>
+                <a href="departamento.html?departamento=Lima">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Arequipa</h3>
+                <p>La Ciudad Blanca rodeada de volcanes</p>
+                <a href="departamento.html?departamento=Arequipa">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Puno</h3>
+                <p>El lago navegable más alto del mundo</p>
+                <a href="departamento.html?departamento=Puno">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Ica</h3>
+                <p>Dunas, bodegas y el misterioso Nazca</p>
+                <a href="departamento.html?departamento=Ica">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer genérico -->
+    <footer>
+        <p>© 2024 Asistente Virtual de Turismo - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

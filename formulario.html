@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Reservas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="formulario">
+        <h2>Reserva tu entrada</h2>
+        <form action="" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="destino">Destino:</label>
+            <select id="destino" name="destino">
+                <option value="machu_picchu">Machu Picchu</option>
+                <option value="valle_sagrado">Valle Sagrado</option>
+            </select>
+
+            <label for="fecha">Fecha de visita:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <input type="submit" value="Reservar">
+        </form>
+    </section>
+
+    <!-- Footer genérico -->
+    <footer>
+        <p>© 2024 Asistente Virtual de Turismo - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
